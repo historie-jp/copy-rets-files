@@ -1,3 +1,3 @@
 # PDF Copy Configuration
-source_dir: "/Users/ryumu/Library/CloudStorage/Dropbox-ヒストリエ/Ishimoto Ryuta/不動産取引の学校/_カリキュラム/01_ファイル資料/01_02期ファイル資料"
-destination_dir: "./output"
+source_dir: "./src"          # コピー元のフォルダ
+destination_dir: "./output"   # コピー先のフォルダ
