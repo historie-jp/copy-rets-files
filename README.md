@@ -33,9 +33,15 @@ winget install astral-sh.uv
 ```
 
 ### 2. プロジェクトの準備
-リポジトリをクローンまたは作成後、以下のコマンドで環境を構築します。
+リポジトリをクローン後、以下のコマンドで環境を構築します。
 ```bash
 uv sync
+```
+
+### 3. 設定ファイルの作成
+`config.yaml.example` を `config.yaml` にコピーして、環境に合わせて設定を編集してください。
+```bash
+cp config.yaml.example config.yaml
 ```
 
 ## 使い方
