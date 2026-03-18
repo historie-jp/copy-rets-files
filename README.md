@@ -62,6 +62,12 @@ destination_dir: "./output"   # コピー先のフォルダ
 uv run copy_pdfs.py --dry-run
 ```
 
+#### 特定の番号のみコピー
+コピーしたいファイルの番号（ファイル名の先頭の数字）をカンマ区切りで指定できます。
+```bash
+uv run copy_pdfs.py --numbers 1,5,10
+```
+
 #### 本番実行
 ```bash
 uv run copy_pdfs.py
